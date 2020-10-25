@@ -1,0 +1,35 @@
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+  </head>
+  <body>
+    <div class="wave-container">
+        <h1>theRise.online</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form }}
+            <button type="submit" class = "button-is-primary">TEST ANOTHER CONVO</button>
+        </form>
+        <p>After reviewing this text, our algorithm found little to no indication of cyberbullying</p> 
+        <p>The emotional magnitude of this transcript was {{magnitude}}. High magnitudes indicate high diversity of emotions throughout the conversation.</p>
+        <p>On a scale of -1 to 1, this transcript scored a {{value}} on the sentiment analysis scale.</p>
+      </div>
+    <div class = "div2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2cb67d" fill-opacity="1" d="M0,96L34.3,90.7C68.6,85,
+        137,75,206,85.3C274.3,96,343,128,411,160C480,192,549,224,617,208C685.7,192,754,128,823,128C891.4,128,960,192,1029,192C1097.1,
+        192,1166,128,1234,90.7C1302.9,53,1371,43,1406,37.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,
+        1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,
+        34,320L0,320Z"></path></svg></div>
+  </body>
+</html>
+
+{% endblock %}
+
+

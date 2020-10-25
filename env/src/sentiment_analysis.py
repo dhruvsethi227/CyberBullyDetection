@@ -12,14 +12,15 @@ def print_result(annotations):
 
     for index, sentence in enumerate(annotations.sentences):
         sentence_sentiment = sentence.sentiment.score
-        print(
-            "Sentence {} has a sentiment score of {}".format(index, sentence_sentiment)
-        )
+        # print(
+        #     "Sentence {} has a sentiment score of {}".format(index, sentence_sentiment)
+        # )
 
-    print(
-        "Overall Sentiment: score of {} with magnitude of {}".format(score, magnitude)
-    )
-    return 0
+    # print(
+    #     "Overall Sentiment: score of {} with magnitude of {}".format(score, magnitude)
+    # )
+
+    return [score, magnitude]
 
 
 
@@ -36,12 +37,9 @@ def analyze(movie_review_filename):
     annotations = client.analyze_sentiment(request={'document': document})
 
     # Print the results
-    print_result(annotations)
+    return print_result(annotations)
 
-
-
-
-if __name__ == "__main__":
+def main(args):
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -49,6 +47,21 @@ if __name__ == "__main__":
         "movie_review_filename",
         help="The filename of the movie review you'd like to analyze.",
     )
-    args = parser.parse_args()
+    args = parser.parse_args(args)
 
-    analyze(args.movie_review_filename)
+    return analyze(args.movie_review_filename)
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
+
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser(
+#         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+#     )
+#     parser.add_argument(
+#         "movie_review_filename",
+#         help="The filename of the movie review you'd like to analyze.",
+#     )
+#     args = parser.parse_args()
+
+#     analyze(args.movie_review_filename)
