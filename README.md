@@ -1,66 +1,28 @@
-# CyberBullyDetection
-
-Link to project:
-https://devpost.com/software/cyberbullying-detector
-
 <p align="center">
-  <a href="https://github.com/king-technologies/Project-Initiator" title="Project Initiator">
-    <img src="https://kingtechnologies.in/assets/images/Logo.webp" width="80px" alt="Project Initiator"/>
+  <a href="https://github.com/king-technologies/Project-Initiator" title="CyberBullyDetection">
   </a>
 </p>
-<h1 align="center">🌟 Project Initiator 🌟</h1>
-<p align="center">Start your project with Single Command</p>
+<h1 align="center">🌟 CyberBullyDetection 🌟</h1>
 
 <p align="center">
-<a href="https://github.com/king-technologies/Project-Initiator/blob/master/LICENSE" title="License">
-<img src="https://img.shields.io/github/license/king-technologies/Project-Initiator?label=License&logo=Github&style=flat-square" alt="Project Initiator License"/>
-</a>
-<a href="https://github.com/king-technologies/Project-Initiator/fork" title="Forks">
-<img src="https://img.shields.io/github/forks/king-technologies/Project-Initiator?label=Forks&logo=Github&style=flat-square" alt="Project Initiator Forks"/>
-</a>
-<a href="https://github.com/king-technologies/Project-Initiator/stargazers" title="Stars">
-<img src="https://img.shields.io/github/stars/king-technologies/Project-Initiator?label=Stars&logo=Github&style=flat-square" alt="Project Initiator Stars"/>
-</a>
-<a href="https://github.com/king-technologies/Project-Initiator/issues" title="Issues">
-<img src="https://img.shields.io/github/issues/king-technologies/Project-Initiator?label=Issues&logo=Github&style=flat-square" alt="Project Initiator Issues"/>
-</a>
-<a href="https://github.com/king-technologies/Project-Initiator/pulls" title="Pull Requests">
-<img src="https://img.shields.io/github/issues-pr/king-technologies/Project-Initiator?label=Pull%20Requests&logo=Github&style=flat-square" alt="Project Initiator Pull Requests"/>
-</a>
-<a href="https://github.com/king-technologies/Project-Initiator" title="Repo Size">
-<img src="https://img.shields.io/github/repo-size/king-technologies/Project-Initiator?label=Repo%20Size&logo=Github&style=flat-square" alt="Project Initiator Repo Size"/>
-</a>
-<a href="https://discord.gg/CJU4UNTaFt" title="Join Community">
-<img src="https://img.shields.io/discord/737854816402800690?color=%236d82cb&label=Join%20Community&logo=discord&logoColor=%23FFFFFF&style=flat-square" alt="Join discord community for Project Initiator"/>
-</a>
-<a href="https://open.vscode.dev/king-technologies/Project-Initiator" title="Open in VSCode">
-<img src="https://img.shields.io/badge/Open%20in%20VSCode-%23007ACC?label=Code&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAC00lEQVQYGX3BX2iVZRwH8O/ze//t/NkcRzdXmzZzLLYMmyVJUFQgzkQoqOsgAtNu6jK6kqjbIqOErrrTCBUUbBTYuZCMoDE0FZLp3DpnZ9s55313znmf/89TEV1JfT5s6uIG5LlvsPTdKViK8fCzr2H8wGEw1UIpNqgUYkRx38Bajqorb08ateWT62l+NrtxBSH+R0KAdhhbaelqp7X26MTTE9ix58UzG83u+7/l9Q9DEMHKHE4JoNiHf0UEKIvH1zh+lMZsC+ME3ZzDt4FiUtz75NE3viXvDYpbx44AHkjXwShAQIBx7PkGD37NtdsWBAzWGihtYD2QtXsQxkmienu+9MRzl3Yf++wylQaLulWHIXolU76qjI8DBmil0drkn/qocFkbCwsGrbQilXUUz3vo3/PS7PiJL38pPDL10eb68nllHQIiGGfxe231BI1MvlceHk2lyGG9h/UeoSzoZ0i507Kx8mYyMjHth3ZOiz9uIehs+F5x63xN0Tvh0Ni13dMz4Fw8ZJwHwPA30k0JsVF/26SNW7ybQQgBN/wY9OCOzsp89ZD44etro4NbkFQi5FwY4xmMB4wHSDY5XCc7bZr3pmy2CksRFO/CVMb7KzMH5yLbPXDv/CmkLQkqlENjPYwFjAUoSsTPNqRjtjwc5XcXbvZuXv3YxmWoTsrCkcl9Q299/pMqDR9fnDsDFoc14xms97Deg0yaxDpWkKwwl9XW9qulGx9Abr6qPQPP2jCSozJ7/IuuCz9p318aZFEC4wHjAdK9ZEaz3lGh9CxjcR4UBwDevmDT5Re0gxZSw0gBjEy+y7V72ToGbTwsi2JigYMz/hJjACP8I0xAqld1zTtPaa1aCgGMFHCMYB3ASgOwCBLCXxhjeEBYANP5dVe/vddysSh9ABcVgP4IPG8vNL7/6vUQ/8kDcR+YyFf04sIMje6q6t5msnrl6kmRpWf1/ev4E5Tbl9R3VUZRAAAAAElFTkSuQmCC&style=flat-square" alt="Open in VSCode"/>
-</a>
-<a href="https://github.dev/king-technologies/Project-Initiator" title="Open in VSCode Web">
-<img src="https://img.shields.io/badge/Open%20in%20VSCode%20Web-%23007ACC?label=Code&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAC00lEQVQYGX3BX2iVZRwH8O/ze//t/NkcRzdXmzZzLLYMmyVJUFQgzkQoqOsgAtNu6jK6kqjbIqOErrrTCBUUbBTYuZCMoDE0FZLp3DpnZ9s55313znmf/89TEV1JfT5s6uIG5LlvsPTdKViK8fCzr2H8wGEw1UIpNqgUYkRx38Bajqorb08ateWT62l+NrtxBSH+R0KAdhhbaelqp7X26MTTE9ix58UzG83u+7/l9Q9DEMHKHE4JoNiHf0UEKIvH1zh+lMZsC+ME3ZzDt4FiUtz75NE3viXvDYpbx44AHkjXwShAQIBx7PkGD37NtdsWBAzWGihtYD2QtXsQxkmienu+9MRzl3Yf++wylQaLulWHIXolU76qjI8DBmil0drkn/qocFkbCwsGrbQilXUUz3vo3/PS7PiJL38pPDL10eb68nllHQIiGGfxe231BI1MvlceHk2lyGG9h/UeoSzoZ0i507Kx8mYyMjHth3ZOiz9uIehs+F5x63xN0Tvh0Ni13dMz4Fw8ZJwHwPA30k0JsVF/26SNW7ybQQgBN/wY9OCOzsp89ZD44etro4NbkFQi5FwY4xmMB4wHSDY5XCc7bZr3pmy2CksRFO/CVMb7KzMH5yLbPXDv/CmkLQkqlENjPYwFjAUoSsTPNqRjtjwc5XcXbvZuXv3YxmWoTsrCkcl9Q299/pMqDR9fnDsDFoc14xms97Deg0yaxDpWkKwwl9XW9qulGx9Abr6qPQPP2jCSozJ7/IuuCz9p318aZFEC4wHjAdK9ZEaz3lGh9CxjcR4UBwDevmDT5Re0gxZSw0gBjEy+y7V72ToGbTwsi2JigYMz/hJjACP8I0xAqld1zTtPaa1aCgGMFHCMYB3ASgOwCBLCXxhjeEBYANP5dVe/vddysSh9ABcVgP4IPG8vNL7/6vUQ/8kDcR+YyFf04sIMje6q6t5msnrl6kmRpWf1/ev4E5Tbl9R3VUZRAAAAAElFTkSuQmCC&style=flat-square" alt="Open in VSCode Web"/>
-</a>
+    <a href="https://devpost.com/software/cyberbullying-detector" title="Project Initiator using Python">🖥️ DevPost</a>
 </p>
 
-<p align="center" title="Project Initiator"><img src="./assets/images/main.gif" alt="Project Initiator"/></p>
+## 🚀 What it Does
 
-<h2 align="center">🌐 Links 🌐</h2>
-<p align="center">
-    <a href="https://youtu.be/ud4P45zhCk0" title="Project Initiator using Python">🖥️ Video</a>
-    ·
-    <a href="https://github.com/king-technologies/Project-Initiator" title="Project Initiator">📂 Repo</a>
-    ·
-    <a href="https://github.com/king-technologies/Project-Initiator/issues/new/choose" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
-</p>
+What the cyberbully detector does is it takes text that the user inputs and runs it through an algorithm that we created which consists of metrics and thresholds that the program runs against. We paired up google clouds sentiment analysis with some profanity checkers and some of our own code to create a backend that will detect cyber bullying to the best extent it can.
 
-## 🚀 Features
+## 💎 How I built it
 
-You are just one command away to start your next project
+The way we built the product was by first learning about the documentation and processes that went into Sentiment Analysis on googles cloud platform. From there we went ahead and tried to create our own machine learning model that would detect sentiment and emotion in text as well. After we were able to get that up and running, we decided to pair this up with a profanity checker to make sure that if a user does showcase profane language in the text, we would be able to detect it and make a stronger case that the texts were cyberbullying incidents. We then incorporated Django as our framework as it was a powerful tool that we have used before and had most familiarity with. Finally we decided to create our frontend using HTML and CSS where are able to show the quantities that occur from our threshold and metrics algorithms. We were also able to get the colors to change depending on the mood of the text.
 
-- **Create Github Repo**
+## 🤘 Challenges I ran into
 
-- **Create Organization Repo**
+The challenges that we ran into was mainly getting started and setting up the frameworks and toolsets. It was our first time working with a lot of these tools so the learning curve was a little bit high but we were able to overcome it and implement the designs to the best of our ability.
 
-- **Open Project in [VSCode](https://code.visualstudio.com/ "VSCode")**
+## 🏆 Accomplishments that I'm proud of
+
+My team and I are extremely proud of how we were able to overcome challenges such as creating a machine learning model and not giving up when it seemed bleak. There were times when we thought it was not worth it but thankfully we stuck through and created a great product.
 
 ## 🦋 Prerequisite
 
@@ -72,59 +34,32 @@ You are just one command away to start your next project
 
 - Git Basic Understanding
 
-- [GH](https://cli.github.com/ "Github CLI") Installed
 
 ## 🛠️ Installation Steps
 
 1. Clone the repository
 
 ```Bash
-git clone https://github.com/king-technologies/Project-Initiator.git
+git clone https://github.com/dhruvsethi227/CyberBullyDetection.git
 ```
 
 2. Change the working directory
 
 ```Bash
-cd Project-Initiator
-```
-
-3. Add Environment Variable path of this directory
-
-4. Run the app using terminal
-
-**🎇 You are Ready to Go!**
-
-## ❗ Available Commands
-
-In the project directory, you can run:
-
-```Bash
-create
-```
-
-Either run this command in the project folder or set the path of `create.bat` in the environmental variable for executing create command anywhere (Run, cmd, or PowerShell).
-
-```Bash
-create <project_name>
-```
-
-For creating global public repo use this command
-
-```Bash
-create <project_name> -y
+cd CyberBullyDetection
 ```
 
 ## 👷 Built with
 
-- [Python](https://www.python.org/ "Python"): as Main Coding Language for executing commands
+- [Python](https://www.python.org/ "Python"): Primary Coding Language
 
-- [Batch](https://en.wikipedia.org/wiki/Batch_file "Batch") : For python file executor
+- [Django](https://www.djangoproject.com/) : Web Framework for Demo
 
-- [Github](https://github.com/ "Github") : For Repo Storage and source code management
+- [GCP](https://cloud.google.com/) : Cloud computing service for NLP
 
-- [Git](https://git-scm.com/ "Git") : For Version Control System
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) : Stylesheet Language
 
-- [Github CLI](https://cli.github.com/ "Github CLI"): For Direct Interacting with Github
+- [HTML5](https://html.com/html5/): Markup Language for display
 
 ## 📂 Directory Structure
 
@@ -132,35 +67,14 @@ create <project_name> -y
 > [`remote.py`](https://github.com/king-technologies/Project-Initiator/blob/main/remote.py "Main File"): Python file, the main file that contains the script
 ## 🎊 Future Updates
 
-- [ ] Add project boilerplate automatically for different languages and frameworks
-
-- [ ] Add GUI
-
-- [ ] Add Documentations
-
-- [ ] Add More Commands
+- [ ] We plan to incorporate for the user to see what part of the text is more emotionally charged in comparison to others and make it a downloadable plugin that works passively in the background like grammarly.
 
 ## 🧑🏻 Author
 
-**Rohit Jain**
+**Gautham Raju**
 
-- 🌌 [Profile](https://github.com/Rohit19060 "Rohit Jain")
+- 🌌 [Profile](gauthamraju.com)
 
-- 🏮 [Email](mailto:rohitjain19060@gmail.com?subject=Hi%20from%20Project%20Initiator "Hi!")
+- 🏮 [Email](mailto:gautham.raju@outlook.com)
 
-- 🦁 [Website](https://kingtechnologies.in "Welcome")
-
-<h2 align="center">🤝 Support</h2>
-
-<p align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow" title="GitHub flow">GitHub Flow</a>), 🔥 issues, and 🥮 feature requests are most welcome!</p>
-
-<p align="center">💙 If you like this project, Give it a ⭐ and Share it with friends!</p>
-<p align="center">💰 Donations Links</p>
-<p align="center">
-<a href="https://www.paypal.me/kingrohitJ" title="PayPal"><img src="https://kingtechnologies.in/assets/images/Paypal.png" alt="PayPal"/></a>
-<a href="https://www.buymeacoffee.com/rohitjain" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/Coffee.png" alt="Buy me a Coffee"/></a>
-<a href="https://ko-fi.com/rohitjain" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/Kofi.png" alt="Ko-fi"/></a>
-<a href="https://www.patreon.com/KingTechnologies" title="Patreon"><img src="https://kingtechnologies.in/assets/images/Patreon.png" alt="Patreon"/></a>
-</p>
-
-<p align="center">Made with Python & ❤️ in India</p>
+- 🦁 [LinkedIn](linkedin.com/in/gautham-raju)
