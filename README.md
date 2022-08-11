@@ -10,7 +10,7 @@
 
 ## 🚀 What it Does
 
-What the cyberbully detector does is it takes text that the user inputs and runs it through an algorithm that we created which consists of metrics and thresholds that the program runs against. We paired up google clouds sentiment analysis with some profanity checkers and some of our own code to create a backend that will detect cyber bullying to the best extent it can.
+What the cyberbully detector does is it takes text that the user inputs and runs it through an algorithm that we created which consists of metrics and thresholds that the program runs against. We paired up google clouds sentiment analysis with some web-scraped profanity checkers and other heuristics to create a backend that will detect cyber bullying instances.
 
 ## 💎 How I built it
 
