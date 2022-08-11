@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/king-technologies/Project-Initiator" title="CyberBullyDetection">
+  <a href="https://github.com/dhruvsethi227/CyberBullyDetection" title="CyberBullyDetection">
   </a>
 </p>
 <h1 align="center">🌟 CyberBullyDetection 🌟</h1>
