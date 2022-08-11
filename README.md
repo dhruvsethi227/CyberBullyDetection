@@ -61,10 +61,6 @@ cd CyberBullyDetection
 
 - [HTML5](https://html.com/html5/): Markup Language for display
 
-## 📂 Directory Structure
-
-> [`create.bat`](https://github.com/king-technologies/Project-Initiator/blob/main/create.bat "Create Command"): Command file that will execute the python file
-> [`remote.py`](https://github.com/king-technologies/Project-Initiator/blob/main/remote.py "Main File"): Python file, the main file that contains the script
 ## 🎊 Future Updates
 
 - [ ] We plan to incorporate for the user to see what part of the text is more emotionally charged in comparison to others and make it a downloadable plugin that works passively in the background like grammarly.
